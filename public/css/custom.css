@@ -42,12 +42,6 @@ body {
 
 
 
-
-
-
-
-
-
 .custom-container {
     max-width: 1240px;   
 }
@@ -89,10 +83,21 @@ body {
     object-fit: cover;
 }
 
+@media screen and (max-width: 1239px) and (min-width: 992px) {
+    .custom-container{
+        padding: 20px;
+        width: 952px;
+    }
+
+    .custom-container.p-0{
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 992px) and (min-width: 300px) {
     .custom-container{
         padding: 20px;
-        width: 100%;
+        width: 90%;
     }
 
     .custom-container.p-0{

@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="flex flex-col gap-3 flex-1">
-            <div className="flex flex-col lg:flex-row lg:items-start justify-between- gap-6">
+            <div className="flex flex-col lg:flex-col lg:items-start justify-between- gap-6">
                 <div className="logo flex items-center gap-2">
                   <div className="pr-6">
                     <Link href="/">
