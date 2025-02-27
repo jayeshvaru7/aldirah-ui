@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'TSNas 3';
+    src: url('../fonts/TSNas-Light.otf'),
+    font-weight: 300,
+    font-style: 'light',
+}
+@font-face {
+    font-family: 'TSNas 4';
+    src: url('../fonts/TSNas-Medium.otf'),
+    font-weight: 400,
+    font-style: '500',
+}
+@font-face {
+    font-family: 'TSNas';
+    src: url('../fonts/TSNas-Regular.otf'),
+    font-weight: 500,
+    font-style: 'normal',
+}
+@font-face {
+    font-family: 'TSNas 6';
+    src: url('../fonts/TSNas-Bold.otf'),
+    font-weight: 600,
+    font-style: 'bold',
+}
+@font-face {
+    font-family: 'TSNas 7';
+    src: url('../fonts/TSNas-SemiBold.otf'),
+    font-weight: 700,
+    font-style: 'bold',
+}
+@font-face {
+    font-family: 'TSNas 9';
+    src: url('../fonts/TSNas-Black.otf'),
+    font-weight: 900,
+    font-style: 'extra_bold',
+}
+
+body {
+    font-family: 'TSNas', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.custom-container {
+    max-width: 1240px;   
+}
+
+.slick-slide img{
+    width: 100%;
+}
+
+.events-slider .slick-arrow{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+
+    left: unset;
+    top: unset;
+}
+
+.ts3{
+    font-family: 'TSNas 3', sans-serif;
+    font-weight: 200;
+}
+
+.ts6{
+    font-family: 'TSNas 6', sans-serif;
+    font-weight: 600;
+}
+
+.ts7{
+    font-family: 'TSNas 7', sans-serif;
+    font-weight: 700;
+}
+
+.ts9{
+    font-family: 'TSNas 9', sans-serif;
+    font-weight: 900;
+}
+
+.cover{
+    object-fit: cover;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px) {
+    .custom-container{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .custom-container.p-0{
+        padding: 0;
+    }
+}
