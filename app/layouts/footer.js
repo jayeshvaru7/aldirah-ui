@@ -244,7 +244,7 @@ export default function Footer() {
 
       {/* Footer bg */}
       <div className="custom-container p-0">
-        <Image src="/images/footer_bg.svg" width={705} height={321} alt="DIRHA" loading="lazy" quality={100} className="lg:absolute xl:lg:absolute -right-[0px] bottom-[0px]" />
+        <Image src="/images/footer_bg.svg" width={705} height={321} alt="DIRHA" loading="lazy" quality={100} className="lg:absolute xl:lg:absolute -right-[0px] bottom-[0px] footer-img-width" />
       </div>
 
     </div>
