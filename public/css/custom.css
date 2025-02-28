@@ -92,6 +92,14 @@ body {
     .custom-container.p-0{
         padding: 0;
     }
+
+    .footer_flex{
+        flex-direction: column;
+    }
+
+    .full-container{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width: 300px) {
@@ -102,5 +110,9 @@ body {
 
     .custom-container.p-0{
         padding: 0;
+    }
+
+    .full-container{
+        width: 100%;
     }
 }

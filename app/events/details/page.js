@@ -61,7 +61,7 @@ export default function Home() {
         <Header />
 
         {/* Breadcrumb */}
-    	   <div className="custom-container lg:my-[100px] my-[100px] md:my[50px] m-auto">
+    	   <div className="custom-container lg:my-[100px] my-[70px] md:my[50px] m-auto">
           <div className="xl:pl-[60px] lg:pl-[60px] md:pl-[60px] pl-0">
             <p className="uppercase text-[20px] ts6"><Link href="#" className="ts7">Home \ &nbsp;&nbsp;What's on \</Link>&nbsp;&nbsp; <span className="opacity-50 ts7">Founding day</span></p>
             
@@ -107,11 +107,11 @@ export default function Home() {
          </div>
 
          {/* section-1 */}
-      	 <section className="section section-1 custom-container m-auto relative bg-[#BFCBBD] mt-[370px]">
+      	 <section className="section section-1 custom-container full-container m-auto relative bg-[#BFCBBD] mt-[370px]">
            <div className="xl:w-[950px] xl:h-[504px] lg:w-[950px] lg:h-[504px] relative m-auto text-center absolute left-[0] -top-[220px]">
               <Image src="/images/details 1B.svg" width={318} height={419} alt="DIRHA" loading="lazy" quality={100} className="absolute -right-[10px] -top-[170px] z-50 w-[180px] h-[242px] xl:w-[318px] xl:h-[419px] lg:w-[250px] lg:h-[319px] xl:-right-[175px] xl:-top-[210px] lg:-right-[0px] lg:-top-[250px] " />
               
-              <Image src="/images/event-2.png" className="border-2 p-[15px] xl:p-0 xl:pd-0 xl:border-0 border-[#424242] lg:w-[950px] lg:h-[504px] xl:w-[950px] xl:h-[504px] w-[90%] h-[460px] object-cover m-auto text-center" width={950} height={504} alt="DIRHA" loading="lazy" quality={100} />
+              <Image src="/images/event-2.png" className="border-2 p-[15px] xl:p-0 xl:pd-0 xl:border-0 border-[#424242] lg:w-[950px] lg:h-[504px] xl:w-[950px] xl:h-[504px] w-[100%] h-[460px] object-cover m-auto text-center" width={950} height={504} alt="DIRHA" loading="lazy" quality={100} />
               <Image src="/images/details_border.svg" width={1200} height={600} alt="DIRHA" loading="lazy" quality={100} className="absolute left-[24px] -top-[20px] hidden xl:block" />
               
               <Image src="/images/details 1A.svg" width={500} height={500} alt="DIRHA" loading="lazy" quality={100} className="absolute h-[275px] w-[175px] lg:h-[250px] lg:w-[350px] xl:h-[350px] xl:w-[400px] -left-[20px] top-unset -bottom-[100px] lg:-left-[150px] lg:top-unset lg:-bottom-[80px] xl:-left-[225px] xl:top-[180px] z-50 " />
@@ -123,7 +123,7 @@ export default function Home() {
          </section>
 
          {/* Section 2 */}
-         <section className="section section-2 custom-container m-auto bg-[#BFCBBD] my-[80px] lg:-mt-[90px] xl:my-[150px]- -mt-[120px] relative overflow-hidden">
+         <section className="section section-2 custom-container full-container m-auto bg-[#BFCBBD] my-[80px] lg:-mt-[90px] xl:my-[150px]- -mt-[120px] relative overflow-hidden">
             <div className="pt-[20px] lg:pt-0 xl:p-[60px] ">
               <div className="events-slider relative">
                 <Slider ref={sliderRef} {...settings}>
@@ -175,7 +175,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute -left-[15%] -bottom-[48%] rotate-180 opacity-30 " />
+                <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute -left-[15%] -bottom-[48%] rotate-180 opacity-30 pointer-events-none hidden lg:block xl:block md:block" />
+                <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute -left-[100px] -bottom-[10%] rotate-180 opacity-75 pointer-events-none block lg:hidden xl:hidden md:hidden" />
               </div>
 
             </div>
@@ -306,7 +307,8 @@ export default function Home() {
                 </div>
                   <div className="clear-both"></div>
 
-                  <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute -left-[38%] -bottom-[55%] rotate-90 opacity-30 " />
+                  <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute -left-[38%] -bottom-[55%] rotate-90 opacity-30 pointer-events-none hidden lg:block xl:block md:block" />
+                  <Image src="/images/dots.webp" width={1500} height={1500} alt="DIRHA" loading="lazy" quality={100} className="absolute left-[20px] -bottom-[0%] rotate-180 opacity-50 pointer-events-none block lg:hidden xl:hidden md:hidden" />
             </div>
 
               <div className="clear-both"></div>

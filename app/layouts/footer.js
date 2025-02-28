@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="flex flex-col gap-3 flex-1">
-            <div className="flex flex-col lg:flex-col lg:items-start justify-between- gap-6">
+            <div className="flex flex-col lg:flex-row footer_flex lg:items-start justify-between- gap-6">
                 <div className="logo flex items-center gap-2">
                   <div className="pr-6">
                     <Link href="/">
@@ -227,9 +227,9 @@ export default function Footer() {
                       </p>
                   </div>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16 mt-[10px] lg:mt-[70px] xl:mt-[70px]">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16 mt-[10px] lg:mt-[70px] xl:mt-[70px] xl:text-left">
                   <div className="flex flex-col gap-4">
-                      <Link className="text-[#424242] lg:text-center xl:lg:text-center lg:text-left mt-0 lg:mt-16 xl:mt-16 text-[14px]" href="#">
+                      <Link className="text-[#424242] lg:text-center xl:lg:text-left lg:text-left mt-0 lg:mt-16 xl:mt-16 text-[14px]" href="#">
                           Privacy
                       </Link>
                       <p className="text-[#424242] lg:text-left xl:text-left text-[14px]">
