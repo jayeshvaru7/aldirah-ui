@@ -1,5 +1,4 @@
 import localFont from 'next/font/local'
-import "./globals.css";
 
 export const metadata = {
   title: "Dirah Destination",
@@ -9,12 +8,8 @@ export const metadata = {
 export default async function RootLayout({ children }) {
 
   return (
-    <html lang="en" dir="ltr">
-      <body >
+    <div lang="ar" dir="rtl">
           {children}
-
-        <link rel="stylesheet" href="/css/custom.css" />
-      </body>
-    </html>
+    </div>
   );
 }

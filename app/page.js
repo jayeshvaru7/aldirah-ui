@@ -1,9 +1,10 @@
-import Image from "next/image";
+'use client'
 
 export default function Home() {
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h3 className="text-2xl">This is the homepage</h3>
+    <div className="container m-auto mt-64">
+      <h1 className="text-5xl">This is homepage</h1>
     </div>
   );
 }
